@@ -1,0 +1,54 @@
+body{
+  background-color: #7CD5CE;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  width: 100%;
+  background-color: lightsalmon;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 10px 0 10px 0;
+}
+
+.navbar a{
+  font-size: 25px;
+  color:brown;
+  text-decoration:none;
+}
+
+.navbar li{
+  display: inline;
+  margin:0px 10px 0px 10px;
+}
+
+.container{
+  margin: 0 auto;
+  width:50%;
+  text-align: center;
+}
+
+.my-divs{
+  display: inline-block;
+  margin: 0 60px 0 60px;
+}
+
+.my-header{
+  text-align: center;
+}
+
+.dogs{
+  width:300px;
+  border:solid;
+  border-color:green;
+  border-radius: 10px;
+  display: block;
+  margin:auto;
+}
