@@ -43,12 +43,15 @@ ul{
 .navbar ul{
     margin-top:15em;
 }
-/*gör så att menyn på alla sidor ligger efter varandra på alla sidor. får en padding från bordern som kommer nedan*/
+/*gör så att menyn på alla sidor ligger efter varandra på alla sidor.*/
 .navbar li{
     font-size: 1.5em;
     display: inline;
-    padding: 0.5em 1em 0.5em 1em;
     margin-top: 4em;    
+}
+/*sätter padding mellan a och border på alla li's i navbar på alla sidor*/
+.navbar a{
+    padding: 0.5em 1em 0.5em 1em;
 }
 /*när man hovrar över ett li i menyn får den en border. detta gäller för alla sidor*/
 .navbar li:hover{
